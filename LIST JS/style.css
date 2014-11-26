@@ -1,0 +1,55 @@
+* {
+    font-family: "Open Sans";
+}
+
+#inputview {
+    margin-left: 10%;
+    width: 80%;
+}
+
+#inputview input {
+    width: 100%;
+    display: inline-block;
+}
+
+#inputview button {
+    width: 15%;
+    display: inline-block;
+}
+
+#inputview form {
+    width: 84%;
+    display: inline-block;
+}
+
+#listview {
+    margin-left: 10%;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    background-color: #ff0000;
+    height: 20px;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+li.active {
+    background-color: #d9d9d9;
+}
+
+#footerview {
+    background-color: #d9d9d9;
+    height: 20px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
